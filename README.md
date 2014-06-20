@@ -1,12 +1,12 @@
-## NAME
+**NAME**
 
 base64 - Base64 encode/decode in Go
 
-## SYNOPSIS
+**SYNOPSIS**
 
 base64 [-d] [-s string]
 
-## DESCRIPTION
+**DESCRIPTION**
 
 Base64 encode or decode string, or standard input, to standard output.
 
@@ -15,11 +15,11 @@ Base64 encode or decode string, or standard input, to standard output.
 -s string
         Encode string.
 
-## EXIT STATUS
+**EXIT STATUS**
 
 The base64 utility exit 0 on success and 1 if there is an error.
 
-## EXAMPLES
+**EXAMPLES**
 
 ```
 $ cat /bin/echo | base64 | base64 -d > echo.new
@@ -28,10 +28,10 @@ $ ./echo.new test
 test
 ```
 
-## AUTHOR
+**AUTHOR**
 
 Andy Kosela <akosela@andykosela.com>
 
-## SEE ALSO
+**SEE ALSO**
 
 http://en.wikipedia.org/wiki/Base64
