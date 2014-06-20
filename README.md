@@ -30,7 +30,7 @@ test
 
 ## AUTHOR
 
-Andy Kosela <akosela@andykosela.com>
+Andy Kosela
 
 ## SEE ALSO
 
